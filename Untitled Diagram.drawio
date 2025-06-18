@@ -10,14 +10,29 @@
         <mxCell id="9Ss4WM88gN4P7oE0cKjP-1" value="User Query Input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="365" y="40" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="9Ss4WM88gN4P7oE0cKjP-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Ss4WM88gN4P7oE0cKjP-2" target="9Ss4WM88gN4P7oE0cKjP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9Ss4WM88gN4P7oE0cKjP-2" value="Embed the Question" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="365" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Ss4WM88gN4P7oE0cKjP-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9Ss4WM88gN4P7oE0cKjP-4" target="9Ss4WM88gN4P7oE0cKjP-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9Ss4WM88gN4P7oE0cKjP-4" value="&lt;div&gt;Retrieve Relevant&amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Chunks (Vector DB)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="365" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9Ss4WM88gN4P7oE0cKjP-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="350" width="120" height="60" as="geometry" />
+        <mxCell id="9Ss4WM88gN4P7oE0cKjP-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9Ss4WM88gN4P7oE0cKjP-5" target="9Ss4WM88gN4P7oE0cKjP-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9Ss4WM88gN4P7oE0cKjP-5" value="Combine with Query&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Ss4WM88gN4P7oE0cKjP-8" value="Generate Answer using&amp;nbsp;Language Model (LLM)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Ss4WM88gN4P7oE0cKjP-9" value="Document Indexing&lt;div&gt;(Scraping + NLP)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
